@@ -1,0 +1,28 @@
+<!-- Gruppe: 1213, Kandidat: 413-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <title>Snake Game</title>
+</head>
+
+<body>
+    <canvas id="cvs" height="600" width="1000" style="background-color: #fabd04; border: 7px  black solid"></canvas>
+    <script type="module">
+        "use strict";
+
+        //--- Import libraries -----------------------------------------------------------------------------
+        import { initGame} from "./script/game.js";
+
+        //--- Objects and Variables  -----------------------------------------------------------------------------
+        const cvs = document.getElementById("cvs");
+        initGame(cvs);
+    </script>
+
+</body>
+
+</html>
